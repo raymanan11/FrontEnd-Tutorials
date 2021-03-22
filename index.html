@@ -83,5 +83,62 @@
                 </tr>
             </tbody>
         </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Form -->
+        <!-- w/ HTML only get the looks of a form, 
+            need something like PHP for functionality. 
+
+            Action attribute is used to send the information to a page.
+            So if it's a login, the information can be sent sign the person up.
+            Method attribute (POST) to add data to database for example.
+
+            name attribute is similar to action where we grab the value of it and
+            send to PHP file for example
+        -->
+        <form action="">
+
+            <div>
+                <label for="">First Name</label>
+                <input type="text" name="first-name">
+            </div>
+            <br>
+            <div>
+                <label for="">Last Name</label>
+                <input type="text" name="last-name">
+            </div>
+            <br>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="">Gender</label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Age</label>
+                <input type="number">
+            </div>
+            <br>
+            <div>
+                <label for="">Birthday</label>
+                <input type="date">
+            </div>
+        </form>
     </body>
 </html>
