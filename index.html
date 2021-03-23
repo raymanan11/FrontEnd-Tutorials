@@ -99,7 +99,7 @@
             name attribute is similar to action where we grab the value of it and
             send to PHP file for example
         -->
-        <form action="">
+        <form action="submit-info.php" method="POST">
 
             <div>
                 <label for="">First Name</label>
@@ -132,13 +132,36 @@
             <br>
             <div>
                 <label for="">Age</label>
-                <input type="number">
+                <input type="number" name="age">
             </div>
             <br>
             <div>
                 <label for="">Birthday</label>
-                <input type="date">
+                <input type="date" name="birthday">
             </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
         </form>
+
+        <!-- Button -->
+        <button>Click Me</button>
+
+        <br>
+
+        <!-- Images -->
+        <a href="https://marvel.com" target="_blank">
+            <img src="wanda.jpg" alt="Wanda Maximoff" width="500">
+        </a>
+
+        <!-- Quotations -->
+        <blockquote cite="https://apple.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam minima sunt soluta repudiandae, temporibus perspiciatis numquam adipisci ut sequi sit.
+        </blockquote>
+
+        <p>The <abbr title="National Basketball Association">NBA</abbr> is amazing!</p>
+
+        <p> <cite>The Handmaid's Tale</cite> by Margaraet Atwood</p>
+
+        <div style="margin-top:500px"></div>
     </body>
 </html>
